@@ -96,4 +96,11 @@ ${\mathrm K} =$
 
 ---
 
+```
+$ ruby gen.rb > self-description-set.hs
+$ runghc self-description-set.hs | ruby plot.rb
+```
+
+---
+
 This was inspired by [Tupper's self-referential formula](https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula), made in 2009 [(Japanese article)](https://mametter.hatenablog.com/entry/20091106/p1).
